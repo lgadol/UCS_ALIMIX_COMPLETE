@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Alimix\\Pdo\\": "src/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "scripts": {
+    "start": "php -S localhost:4000"
+  }
+}
