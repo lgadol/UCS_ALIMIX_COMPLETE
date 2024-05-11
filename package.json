@@ -4,6 +4,12 @@
   "description": " ",
   "main": "index.js",
   "scripts": {
+    "i:phpcomposer": "composer install && composer dumpautoload",
+    "i:inicial": "npm install",
+    "i:frontend": "cd react/frontend && npm install",
+    "i:server": "cd react/server && npm install",
+    "i:all": "npm run i:inicial && npm run i:phpcomposer && npm run i:frontend && npm run i:server",
+
     "start:api": "composer start",
     "start:server": "cd react/server && node server.js",
     "start:frontend": "cd react/frontend && npm start",
